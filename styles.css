@@ -1,0 +1,23 @@
+h1 {
+    color: white;
+    font-family: Poppins;
+    background-color: black;
+    font-size: 32px;
+    font-weight: bold;
+    text-align: center;
+}
+
+h2{
+    font-family: poppins;
+    font-size: 20px;
+    background-color: darkgray;
+    color: white;
+}
+
+div{
+    margin: 1.5em;
+}
+
+body{
+    background-color: grey;
+}
