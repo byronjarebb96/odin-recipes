@@ -1,23 +1,90 @@
+/*
+palettte:
+    E9C46A - yellow
+    264653 - dark blue
+    2A9D8F - blue greenm
+    F4A261 - orange
+    E76F51 - red oranmge
+*/
+
+*{
+font-family: "Poppins", sans-serif;
+box-sizing: border-box;
+margin-left: 0px;
+margin-right: 0px;
+}
+
 h1 {
-    color: white;
-    font-family: Poppins;
-    background-color: black;
+    color: #264653;
     font-size: 32px;
     font-weight: bold;
     text-align: center;
+    width:auto;
+    
+    
 }
 
 h2{
-    font-family: poppins;
+    font-family: sans-serif;
     font-size: 20px;
-    background-color: darkgray;
+    background-color: #2A9D8F;
     color: white;
 }
 
 div{
     margin: 1.5em;
+    display: flex;
 }
 
 body{
-    background-color: grey;
+    background-color: #E9C46A;
+    height: 100vh;
+}
+
+ul{
+    display: flex;
+    background-color: white;
+}
+
+.h-bg{
+    display: flex;
+    width: auto;
+    background-color: #F4A261;
+    border-radius: 15px;
+    padding: 10%;
+}
+
+.flex-container{
+    display: flex;
+    background-color: #264653;
+}
+
+.flex-container > div{
+    background: #E76F51;
+    border: 10px;
+    border-color: black;
+    border-radius: 10px;
+    height: auto;
+    padding: 10px;
+
+    flex: 1;
+    /*flex:1 is shorthand. There are three properties, 
+        flex-grow, flex-shrink, flex-basis 
+        flex:1 only changes the flex-grow property*/
+}
+
+.food-menu{
+    display:flex;
+
+}
+.food-menu div{
+    flex:1 1 100px;
+    background-color: #264653;
+    padding:20px;
+    color:#E76F51;
+    border-radius: 15px;
+    text-align: center;
+    font-size: 24px;
+    font-weight: 800;
+    display: inline;
 }
